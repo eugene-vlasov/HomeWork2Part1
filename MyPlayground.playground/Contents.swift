@@ -155,16 +155,26 @@ print("\nРозділ 1.3 Псевдоніми\n")
  * температура - Сelsius 18 С
 
  */
+typealias Humidity = Int
+typealias Pressure = Int
+typealias Temperature = Int
+
+var humidity: Humidity = 70
+var pressure: Pressure = 70
+var temperature: Temperature = 11
 
 print("Погода вчора:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(pressure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(temperature) C")
+
+temperature = 7
+humidity = 69
 
 print("\nПогода сьогодні:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(pressure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(temperature) C")
 
 
 print("\nРозділ 1.4 Кортежі\n")
